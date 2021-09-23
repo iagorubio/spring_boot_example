@@ -182,7 +182,8 @@ Those are two simple one-liner pages.
 
 To be able to view the admin page you must log in as *adm* with password *pwd123*.
 
-To be able to view the public page you must log as *user* with password *pwd123*.
+Everyone is able to view the public page, but to be logged and have no access to the 
+admin page, you must log as *user* with password *pwd123*.
 
 You can visit http://localhost:8080/logout to log out.
 
