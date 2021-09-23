@@ -95,6 +95,27 @@ I recommend using a Java IDE such as [IntelljIDEA Community](https://www.jetbrai
 
 You need a working MySQL.
 
+Log in to the MySQL server and create a database *io_web*.
+
+```sql
+   CREATE DATABASE io_web;
+```
+
+You should now add a user and it's password for the application to access it.
+
+You can change the user and password on com.iagorubio.ioweb.config.JpaConfig or 
+use the provided ones.
+
+```sql
+   CREATE USER 'iowebusr'@'localhost' IDENTIFIED BY 'iowebpwd';
+```
+
+Grant access to the application database to the new user.
+
+```sql
+   GRANT ALL ON io_web.* TO 'iowebusr'@'localhost';
+```
+
 To create the required database use the following script:
 
    ```sql
@@ -124,6 +145,14 @@ INSERT INTO `authorities` VALUES (1,'user','ROLE_USER'),(2,'adm','ROLE_ADMIN');
 UNLOCK TABLES;
    ```
 The script is also located at the project root directory.
+
+You can run it from the command line with the following command from project's root directory:
+
+```shell
+   mysql -h localhost -u iowebusr io_web -p < database.sql
+```
+
+Once prompted enter the password *iowebpwd*.
 
 ### Installation
 
