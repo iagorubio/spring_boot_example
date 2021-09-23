@@ -182,8 +182,7 @@ Those are two simple one-liner pages.
 
 To be able to view the admin page you must log in as *adm* with password *pwd123*.
 
-Everyone is able to view the public page, but to be logged and have no access to the 
-admin page, you must log as *user* with password *pwd123*.
+Everyone is able to view the public page, but to be logged and have no access to the  you must log as *user* with password *pwd123*.
 
 You can visit http://localhost:8080/logout to log out.
 
@@ -235,15 +234,15 @@ Project Link: [https://github.com/iagorubio/springboot-example](https://github.c
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/iagorubio/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/iagorubio/springboot-example.svg?style=for-the-badge
 [contributors-url]: https://github.com/iagorubio/springboot-example/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/iagorubio/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/iagorubio/springboot-example.svg?style=for-the-badge
 [forks-url]: https://github.com/iagorubio/springboot-example/network/members
-[stars-shield]: https://img.shields.io/github/stars/iagorubio/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/iagorubio/springboot-example.svg?style=for-the-badge
 [stars-url]: https://github.com/iagorubio/springboot-example/stargazers
-[issues-shield]: https://img.shields.io/github/issues/iagorubio/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/iagorubio/springboot-example.svg?style=for-the-badge
 [issues-url]: https://github.com/iagorubio/springboot-example/issues
-[license-shield]: https://img.shields.io/github/license/iagorubio/repo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/iagorubio/springboot-example.svg?style=for-the-badge
 [license-url]: https://github.com/iagorubio/springboot-example/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/iago-rubio
