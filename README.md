@@ -146,17 +146,27 @@ Then point your browser to http://localhost:8080/
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Once you opened the project in your browser you would be able to view the index
+page with a link to public part and another to the admin part.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Those are two simple one-liner pages.
 
+To be able to view the admin page you must log in as *adm* with password *pwd123*.
 
+To be able to view the public page you must log as *user* with password *pwd123*.
+
+You can visit http://localhost:8080/logout to log out.
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/iagorubio/springboot-example/issues) for a list of proposed features (and known issues).
+This is a simple example to help you explore spring and spring security.
 
+It won't be updated further but for fix requests.
+
+You can request an update on the project's issues.
+
+See the [open issues](https://github.com/iagorubio/springboot-example/issues) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
