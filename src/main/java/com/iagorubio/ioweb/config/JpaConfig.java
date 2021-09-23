@@ -9,9 +9,9 @@ import javax.sql.DataSource;
 
 @Configuration
 public class JpaConfig {
-    @Bean(name = "mySqlDataSource")
+    @Bean(name = "dataSource")
     @Primary
-    public DataSource mySqlDataSource()
+    public DataSource dataSource()
     {
         DataSourceBuilder<?> dataSourceBuilder = DataSourceBuilder.create();
         dataSourceBuilder.url("jdbc:mysql://localhost:3306/io_web");

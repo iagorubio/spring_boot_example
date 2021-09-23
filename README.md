@@ -167,7 +167,7 @@ It won't be updated further but for fix requests.
 You can request an update on the project's issues.
 
 See the [open issues](https://github.com/iagorubio/springboot-example/issues) for a list of proposed features (and known issues).
-
+LPO
 
 <!-- CONTRIBUTING -->
 ## Contributing
