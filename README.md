@@ -41,6 +41,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#log4j-vuln">Log4j vulnerability</a></li>
       </ul>
     </li>
     <li>
@@ -79,6 +80,12 @@ It contains examples of:
 * [Spring](https://spring.io/)
 * [IntelliJIDEA](https://www.jetbrains.com/idea/)
 * [OpenJDK](https://openjdk.java.net/)
+
+### Log4j vulnerability
+
+The original pom.xml cointained a reference to a vulnerable version of Log4j.
+
+If you use this project as a template, to use it on a public webserver, please update it.
 
 <!-- GETTING STARTED -->
 ## Getting Started
